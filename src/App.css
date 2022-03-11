@@ -1,38 +1,75 @@
-.App {
-  text-align: center;
+.cardImg {
+  width: 100%;
+  height: 14rem;
+  border-radius: 20px;
+  opacity: .7;
+  position: relative;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.restaurantList {
+  background-color: #FFC671;
+  padding-bottom: 15%;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.restaurantPaper {
+  border-radius: 20px !important;
+  background-color: #935800 !important;
+  color: white !important;
+  cursor: pointer;
+} 
+
+.fontChange {
+  font-family: 'Fredoka One', cursive !important;
+  text-shadow: 0px 13px 13px #000; 
+  color: white !important;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #935800;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.appbar {
+  background-color: #FFC671 !important;
 }
 
-.App-link {
-  color: #61dafb;
+.navBar {
+  font-family: 'Montserrat', sans-serif !important;
+  font-weight: bold;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.paper {
+  cursor: pointer;
+}
+
+.banner {
+  width: 100vw;
+}
+
+.name{
+font-size: 25px !important;
+font-family: 'Monserrat', sans-serif !important;
+font-weight: bold !important;
+}
+
+.address {
+  font-family: 'Monserrat', sans-serif !important;
+}
+
+.phone {
+  font-family: 'Monserrat', sans-serif !important;
+  padding-top: 2 !important;
+}
+
+.twitter{
+  font-family: 'Monserrat', sans-serif !important;
+}
+
+.category {
+  font-family: 'Monserrat', sans-serif !important;
+  font-style: italic !important;
+}
+
+.mapBox {
+  border: 8px solid #FFC671 !important;
+  border-radius: 20px !important;
 }
